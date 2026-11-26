@@ -1,7 +1,7 @@
 SUMMARY = "Polaris OS — production image for Renesas RZ/G2L"
 DESCRIPTION = "Full image with A/B OTA, gRPC/Protobuf, Polaris-HAL, hardware \
 interface tooling, and connectivity."
-HOMEPAGE = "https://github.com/SiliconCentric/Polaris-OS"
+HOMEPAGE = "https://github.com/soccentric-polaris/Polaris-OS"
 LICENSE = "MIT"
 
 require recipes-extended/images/core-image-full-cmdline.bb

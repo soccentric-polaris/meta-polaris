@@ -4,7 +4,7 @@ MQTT client/broker (mosquitto), NTP-based time synchronisation (chrony), \
 and HTTP transport (curl). Not installed by default (see polaris-image.bb); \
 add packagegroup-polaris-cloud to IMAGE_INSTALL for deployments that need \
 cloud/telemetry connectivity."
-HOMEPAGE = "https://github.com/SiliconCentric/Polaris-OS"
+HOMEPAGE = "https://github.com/soccentric-polaris/Polaris-OS"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
