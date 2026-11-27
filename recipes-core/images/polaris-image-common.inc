@@ -46,5 +46,4 @@ IMAGE_INSTALL:append = " \
     libgpiod i2c-tools spitools libiio \
 "
 
-# WebConfig (Polaris-Configuration's meta-webconfig layer, kas/repos/polaris-configuration.yaml).
-IMAGE_INSTALL:append = " webconfigd webconfig-static webconfig-schemas webconfig-manifest"
+# WebConfig web UI intentionally not installed (removed from all OS builds).
