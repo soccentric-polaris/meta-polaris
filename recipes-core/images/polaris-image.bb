@@ -8,7 +8,7 @@ require recipes-extended/images/core-image-full-cmdline.bb
 IMAGE_FEATURES += "ssh-server-openssh"
 
 # OTA / swupdate — install the A/B runtime on the RZ/G2L machine
-IMAGE_INSTALL:append:smarc-rzg2l = " swupdate swupdate-www polaris-swupdate-config"
+IMAGE_INSTALL:append:smarc-rzg2l = " swupdate polaris-swupdate-config"
 
 # Home partition init (persistent /home on the data partition)
 IMAGE_INSTALL:append = " polaris-data-init"
